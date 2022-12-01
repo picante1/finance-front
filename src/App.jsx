@@ -63,7 +63,7 @@ function App() {
           <div className="cards">
               {typeof movimiento !== 'undefined' &&
                   movimiento.map((game) => {
-                      return <Card id={game.id} description={game.description} amount={game.amount} method={game.method} frecuency={game.frecuency}></Card>;
+                      return <Card id={movimiento.id} description={movimiento.description} amount={movimiento.amount} method={movimiento.method} frecuency={movimiento.frecuency}></Card>;
                   })}
           </div>
       </div>
